@@ -7,7 +7,7 @@
    - Open a terminal and navigate to the directory where you saved the script.
    - Run the following command to make the script executable:
 
-            chmod +x add-chaotic-aur.sh
+            chmod +x script.sh
 
 
       
@@ -15,4 +15,4 @@
 
    - Run the script with sudo to add the Chaotic AUR repository:
    
-            sudo ./add-chaotic-aur.sh
+            sudo ./script.sh
