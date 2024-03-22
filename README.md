@@ -15,4 +15,6 @@
 
    - Run the script with sudo to add the Chaotic AUR repository:
    
-            sudo ./script.sh
+            sudo ./add_chaotic_aur.sh
+            ./zshConfigInstaller.sh
+

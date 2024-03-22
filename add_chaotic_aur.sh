@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Check if Chaotic-AUR repository is already added
@@ -21,11 +22,11 @@ sudo pacman -Syu --noconfirm
 echo "Chaotic-AUR repository has been added or already exists!"
 
 # Adding most used softwares 
-sudo pacman -S --noconfirm visual-studio-code-bin vscodium spotify-adblock-git freetube vlc qbittorrent audacious gparted chatgpt-desktop-bin terminator obsidian quickemu auto-cpufreq 
+sudo pacman -S --noconfirm visual-studio-code-bin vscodium spotify-adblock-git freetube vlc qbittorrent audacious gparted chatgpt-desktop-bin terminator obsidian quickemu auto-cpufreq yay
 
 # Adding software via yay
 # yay -S --noconfirm 
-$AUR_HELPER -S --noconfirm --needed quickgui
+yay -S --noconfirm --needed quickgui
 
 # Adding snapper
 sudo pacman -S --noconfirm btrfs-progs snapper snapper-support

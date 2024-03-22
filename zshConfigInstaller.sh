@@ -4,7 +4,7 @@
 sudo pacman -S --needed --noconfirm zsh grml-zsh-config neofetch
 
 # Install AUR packages using AUR helper (replace $AUR_HELPER with your AUR helper command)
-$AUR_HELPER -S --noconfirm --needed ttf-meslo-nerd siji-git ttf-unifont noto-color-emoji-fontconfig xorg-fonts-misc ttf-dejavu ttf-meslo-nerd-font-powerlevel10k noto-fonts-emoji powerline-fonts zsh-theme-powerlevel10k
+yay -S --noconfirm --needed ttf-meslo-nerd siji-git ttf-unifont noto-color-emoji-fontconfig xorg-fonts-misc ttf-dejavu ttf-meslo-nerd-font-powerlevel10k noto-fonts-emoji powerline-fonts zsh-theme-powerlevel10k
 
 # Wait for 2 seconds
 sleep 2
